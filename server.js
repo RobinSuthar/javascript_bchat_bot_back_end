@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 // Enable CORS for all origins (you can modify this to allow specific origins)
 app.use(
   cors({
-    origin: "http://localhost:3001", // Allow only this origin
+    origin: "https://highlannderaibot.netlify.app", // Allow only this origin
   })
 );
 
